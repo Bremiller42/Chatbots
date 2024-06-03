@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "What's up?",
+        "Hey",
+        "Are you there?",
+        "Is anyone there?",
+        "Yo",
+        "Howdy"
+
+      ],
+      "responses": [
+        "Hey there",
+        "Hello again",
+        "How can I help?",
+        "Whatcha need?",
+        "What are we getting into today?",
+        "Yo"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Good-Bye",
+        "Goodbye",
+        "Adios",
+        "Cya",
+        "Seeya",
+        "See you later",
+        "Bye",
+        "I have to go",
+        "g2g",
+        "gtg"
+      ],
+      "responses": [
+        "Good-Bye",
+        "Goodbye",
+        "Adios",
+        "Cya",
+        "Seeya",
+        "See you later",
+        "Bye",
+        "Until next time",
+        "Have a good day"
+
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "thanks",
+        "thanks a lot",
+        "That's helpful",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem",
+        "Any time",
+        "My pleasure",
+        "Of course"
+      ]
+    },
+    {
+      "tag": "self",
+      "patterns": [
+        "Who are you",
+        "What's your name",
+        "Identify",
+        "Identify Yourself"
+      ],
+      "responses": [
+        "I am Anna, an Artificial Neural Network Automaton"
+
+      ]
+    }
+  ]
+}
